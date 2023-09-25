@@ -1,3 +1,5 @@
+# Module Practice
+
 import mod.utils as ut
 from datetime import datetime as dt
 # from pytz import timezone
@@ -42,3 +44,32 @@ print(sys.version)
 print(sys.argv)
 print(ut.sys_version)
 print(ut.sys_argv)
+
+# Data Structure
+# STACK in Python
+
+stack = []
+
+for i in range(5):
+    a = input()
+    stack.append(a)
+    
+print(stack)
+
+for i in range(5):
+    top = stack.pop()
+    print(top)
+    
+# QUEUE in Python
+
+queue = []
+
+for i in range(5):
+    a = input()
+    queue.append(a)
+    
+print(queue)
+
+for i in range(5):
+    front = queue.pop(0)
+    print(front)
