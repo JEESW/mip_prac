@@ -144,3 +144,9 @@ for l in line:
     print(l)
 
 file.close() """
+
+""" file = open("temp.txt", "r")
+for line in file:
+    print(line)
+
+file.close() """
