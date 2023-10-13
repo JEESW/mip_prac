@@ -132,8 +132,15 @@ for i in range(103):
 
 file.close() """
 
-file = open("c:/Users/Catholic/temp.txt", "r")
+""" file = open("c:/Users/Catholic/temp.txt", "r")
 res = file.readlines()
 print(res)
 
-file.close()
+file.close() """
+
+""" file = open("temp.txt", "r")
+line = file.readlines()
+for l in line:
+    print(l)
+
+file.close() """
